@@ -1,0 +1,27 @@
+.arnaldo{
+    width: 10%;
+    border: 1px solid red;
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.arnaldo2{
+    background-color: yellowgreen;
+    margin: 0 auto;
+    width: 5%;
+    border: 1px dashed blue;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+nav a{
+    border: 1px solid black;
+    margin: 1rem;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+}
+
