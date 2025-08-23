@@ -1,0 +1,46 @@
+/* Seleciona as linhas de fundo (excluindo cabeçalhos) */
+tbody tr {
+    /* Define um espaçamento entre as linhas */
+    height: 30px;
+  }
+  
+  /* Aplica uma cor de fundo a todas as linhas ímpares */
+  tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Cor de fundo mais clara */
+  }
+  
+  /* Aplica uma cor de fundo a todas as linhas pares */
+  tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Cor de fundo mais escura/padrão */
+  }
+
+table{
+    border: 1px solid black;
+    height: 40%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+
+table th{
+    border: 1px solid black;
+}
+
+table td{
+    border: 1px solid black;
+}
+
+  tbody td{
+    text-align: center;
+  }
+
+  tfoot{
+    background-color: rosybrown;
+    color: #f6f6f6;
+    text-align: center;
+  }
+
+  .valor_final{
+    border: 3px solid red;
+  }
