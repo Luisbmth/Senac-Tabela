@@ -139,3 +139,67 @@ nav a {
 .trab h2{
     padding-bottom: .5rem;
 }
+
+
+.contato{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F073B;
+}
+
+
+.container{
+    position: relative;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #271930;
+    border-radius: 1rem;
+}
+
+    
+
+.container input{
+    padding: .7rem;
+    border-radius: 1rem;
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+.container button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    font-size: .6rem;
+    cursor: pointer;
+   }
+
+.container h2{
+    color: #f6f6f6;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2rem;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F073B;
+    color: #f6f6f6;
+    border: .5px solid #DDFAC7;
+    padding: .6rem;
+}
